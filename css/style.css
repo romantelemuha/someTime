@@ -1,0 +1,49 @@
+.face{
+   background-color: bisque;
+}
+#clock{
+    stroke: cadetblue;
+    stroke-linecap: square;
+    fill: dimgray;
+}
+svg{
+    display: block;
+    margin: 0 auto;
+}
+#clock .face {
+    stroke-width: 2;
+}
+#clock .ticks { 
+    stroke-width: 2
+}
+#clock .hands { 
+    stroke-width: 3;
+    stroke-linecap: round;
+}
+#clock .numbers {
+    font-family: sans-serif;
+    font-size: 10px; 
+    font-weight: bold;
+    text-anchor: middle;
+    stroke: none; 
+    fill: darkslateblue;
+}
+.hourhand{
+    stroke: cornflowerblue;
+    stroke-width: 4;
+}
+.minutehand{
+    stroke: burlywood;
+    stroke-width: 3;
+}
+.secondhand{
+    stroke-width: 2;
+    stroke: darkgrey; 
+}
+body{
+    background-color: chocolate;
+}
+h1{
+    color: darkcyan;
+    text-align: center;
+}
